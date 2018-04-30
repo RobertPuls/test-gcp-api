@@ -1,0 +1,22 @@
+module.exports = [
+    "z zegna",
+    "zac zac posen",
+    "zachary prell",
+    "zadig and voltaire",
+    "zanerobe",
+    "zella",
+    "zella for men",
+    "zella for women",
+    "zella girl",
+    "zella leggings",
+    "zella sale",
+    "zero gravity",
+    "zero maria cornejo",
+    "zoe chicco",
+    "zoli",
+    "ermenegildo zegna",
+    "giuseppe zanotti",
+    "nic and zoe",
+    "robert zur",
+    "xen-tan"
+];

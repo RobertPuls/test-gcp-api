@@ -1,0 +1,1 @@
+module.exports = ["7 diamonds","7 for all mankind","7 for all mankind for men","7 for all mankind for women"];
