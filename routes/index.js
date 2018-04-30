@@ -4,7 +4,11 @@ const wordBank = require("../test-data/_index");
 
 getWordArray = (word) => {
   return wordBank[word[0].toLowerCase()];
-}
+};
+
+router.get('/', (req,res) => {
+  res.json({'abc': 'abc'});
+});
 
 // Remember to test numbers
 router.get('/:keyword/:count', (req, res) => {
