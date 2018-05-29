@@ -8,5 +8,6 @@ module.exports = [
     "one clothing",
     "one teaspoon",
     "one-piece swim",
-    "one-shoulder dresses"
+    "one-shoulder dresses",
+    "test"
 ];

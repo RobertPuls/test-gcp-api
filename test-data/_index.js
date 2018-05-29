@@ -36,6 +36,7 @@ const y = require("./y");
 const z = require("./z");
 
 module.exports = {
+    0: zero,
     1: one,
     2: two,
     3: three,
