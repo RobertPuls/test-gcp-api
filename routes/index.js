@@ -27,7 +27,8 @@ router.get('/:keyword/:count', (req, res) => {
 router.get('/solr/:keyword/:count', (req, res) => {
   const count = parseInt(req.params.count); 
   const keyword = req.params.keyword;
-  axios.get(`http://172.18.5.128:8983/solr/list_simple/suggest?suggest.dictionary=Suggester&suggest.count=${count}&suggest.q=${keyword}`)
+  // Solr: // ec2-user@172.31.49.88
+  axios.get(`http://172.31.49.88:8983/solr/list_simple/suggest?suggest.dictionary=Suggester&suggest.count=${count}&suggest.q=${keyword}`)
     .then(function (response) {
       res.json(response.data.suggest.Suggester);
     })
